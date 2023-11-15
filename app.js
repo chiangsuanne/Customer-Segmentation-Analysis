@@ -1,8 +1,8 @@
-function initializeViz() {
+function initViz() {
   // JS object that points at empty div in the html
-  var placeholderDiv = document.getElementById("tableauViz");
+  var containerDiv = document.getElementById("tableauViz");
   // URL of the viz to be embedded
-  var url = "https://public.tableau.com/views/CustomerSegmentationAnalysis_16963810307130/CustomerSegmentationAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link";
+  url = "https://public.tableau.com/views/CustomerSegmentationAnalysis_16963810307130/CustomerSegmentationAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link";
   // An object that contains options specifying how to embed the viz
   var options = {
     width: '600px',
@@ -10,5 +10,6 @@ function initializeViz() {
     hideTabs: true,
     hideToolbar: true,
   };
-  viz = new tableau.Viz(placeholderDiv, url, options);
+  var viz = new tableau.Viz(containerDiv, url, options);
 }
+initViz();
