@@ -1,26 +1,16 @@
-console.log('Is this working?');
-
-let viz;
-
-//Add Share Link to Tableau Public in here
-const url = "https://public.tableau.com/views/CustomerSegmentationAnalysis_16963810307130/CustomerSegmentationAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link";
-
-const vizContainer = document.getElementById('vizContainer');
-const options = {
+function initializeViz() {
+  // JS object that points at empty div in the html
+  var placeholderDiv = document.getElementById("tableauViz");
+  // URL of the viz to be embedded
+  var url = "http://public.tableau.com/views/WorldIndicators/GDPpercapita";
+  // An object that contains options specifying how to embed the viz
+  var options = {
+    width: '600px',
+    height: '600px',
     hideTabs: true,
-    height: 1000,
-    width: 1200,
-    onFirstInteraction: function() {
-        workbook = viz.getWorkbook();
-        activeSheet = workbook.getActiveSheet();
-        console.log("My dashboard is interactive");
-    }
-};
-
-//create a function to generate the viz element
-function initViz() {
-    console.log('Executing the initViz function!');
-    viz = new tableau.Viz(vizContainer, url, options);
+    hideToolbar: true,
+  };
+  viz = new tableau.Viz(placeholderDiv, url, options);
 }
 
 // run the initViz function when the page loads
