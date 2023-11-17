@@ -5,8 +5,7 @@ Zomato is a multinational restaurant aggregator and food delivery company. Analy
 
 ### Data Set
 - Users table
-- Orders table
-- Restaurant table
+- Orders table (https://github.com/chiangsuanne/Customer-Segmentation-Analysis/blob/main/orders.csv)
 
 ### Tools
 - Tableau for joining and cleaning data for analysis and visualization
