@@ -10,7 +10,7 @@ Customer segmentation is the process by which we divide customers into groups ba
 - Orders table (https://github.com/chiangsuanne/Customer-Segmentation-Analysis/blob/main/orders.csv)
 
 ## Tools
-- Tableau for joining and cleaning data for analysis and visualization
+Tableau for joining and cleaning data for analysis and visualization
 
 ## Analysis
 RFM Analysis was performed to identify different groups of customers based on their past purchase behavior so that specific groups can be targeted and marketed.  
