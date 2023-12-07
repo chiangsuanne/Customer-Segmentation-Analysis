@@ -36,34 +36,35 @@ View dynamic [dashboard](https://public.tableau.com/views/CustomerSegmentationAn
 ![image](https://github.com/chiangsuanne/Customer-Segmentation-Analysis/assets/108243961/9a12b2d1-7504-41ef-ac26-b237fc09f45d)  
 
 ## Executive Summary
+By synthesizing insights from the RFM analysis, purchasing behavior, demographic breakdowns, geographic analysis, and total sales value computation, Zomato can formulate a holistic strategy. The company can refine marketing efforts, allocate resources effectively, and foster personalized engagement, thereby solidifying its market leadership and ensuring sustainable growth in the competitive food delivery and restaurant aggregation industry.
 ### Conclusion
 1. **RFM Customer Segments:**
-    - The RFM analysis reveals distinct customer segments, with Occasional Buyers, Loyal Customers, and Big Spenders emerging as the top three prominent groups. The descending order indicates varying levels of customer engagement and spending habits.  
-    - The descending order of customer segments prompts considerations for targeted marketing strategies, loyalty programs, and personalized engagement to further strengthen the bond with the top-performing customer groups.
-2. **RFM Segment Details:**
-    - Detailed insights into RFM segments highlight the significant characteristics of each group. For instance, Best Customers, spending an average of $46,909, placing 4 orders on average, and exhibiting the least recency with orders placed 87 days ago, underscore the importance of personalized engagement and retention efforts.  
-    - This detailed understanding opens avenues for tailoring marketing campaigns, loyalty rewards, and personalized communications based on the specific behaviors and preferences of each customer segment.
-3. **RFM Segment Sales Over Time:**
-    - Visualizing sales trends over time showcases dynamic changes in customer behavior. Notably, the increase in both spending and count of Best Customers and Recent Buyers from 2019 Q4 to 2020 Q1 contrasts with the declining trends in both amount spent and count of Loyal Customers during the same period.  
-    - This temporal analysis prompts considerations for identifying and capitalizing on the factors contributing to the growth of specific customer segments, while addressing challenges faced by declining segments. Strategic adjustments can be made to align with evolving customer preferences.
-4. **Demographics Insights:**
-    - The demographic analysis identifies key insights, with females in the 21-25 age group and a monthly income exceeding 50,000 emerging as the highest average sales contributors. Additionally, females in the 26-30 age group, with a monthly income below 10,000, rank second in average sales.  
-    - This demographic understanding presents opportunities for targeted marketing, product recommendations, and pricing strategies tailored to the preferences and spending capacity of specific demographic segments.
+    - *Visualization Strength:* The RFM Customer Segments effectively illustrate the strength of customer groups in terms of customer counts. Occasional Buyers, Loyal Customers, and Big Spenders emerge as the top three prominent groups, with the Best Customers being particularly noteworthy.    
+    - *Insights from RFM Segment Details:* Delving into each segment reveals valuable insights. Best Customers, characterized by an average spend of $46,909, four orders, and a recency of 87 days, stand out as the most lucrative and engaged group.
+2. **RFM Segment Sales Over Time:**
+   - *Trend Analysis:* The RFM Segment Sales Over Time visualization unveils trends in both spending and customer counts. Notably, Best Customers and Recent Buyers show an increase from 2019 Q4 to 2020 Q1. Conversely, Loyal Customers experience a decline in both spending and count during the same period. Stability characterizes other segments from 2018 Q1 to 2019 Q3, with exceptions in Big Spenders and Loyal Customers.    
+    - *Potential Actionable Insights:* Tailoring strategies to retain Loyal Customers and understanding the factors driving the increase in Best Customers could optimize marketing efforts.
+3. **Demographics Insights:**
+    - *Top Demographic Group:* Females in the 21-25 age group, with a monthly income higher than $50,000, emerge as the highest average sales contributors.    
+    - *Second Top Demographic Group:* Females in the 26-30 age group, with a monthly income below $10,000, constitute the second-highest average sales contributors.    
+    - *Potential Actionable Insights:* Tailoring promotions and marketing messages to cater specifically to these demographic groups could yield higher returns.
+4. **Total Sales Value for Best Customers:**
+    - *Revenue Optimization:* The computation of the total sales value for the top Best Customers segment, sorted in descending order, offers a deep understanding of high-value customers. Tailoring loyalty programs and personalized engagement for this segment could maximize revenue.
 
 ### Suggestions for Further Improvement and Business Outcomes
 1. **Targeted Marketing Campaigns:**
     - *Suggestion:* Develop personalized marketing campaigns tailored to the top-performing RFM segments—Occasional Buyers, Loyal Customers, and Big Spenders. Leverage insights from the demographic analysis to create targeted promotions that resonate with specific age and income groups.
-    - *Expected Outcome:* Increased customer engagement, higher conversion rates, and enhanced loyalty from top-performing segments, resulting in sustained revenue growth.
-2. **Enhanced Loyalty Programs:**
-    - *Suggestion:* Introduce or enhance loyalty programs specifically designed to cater to the needs and preferences of Best Customers. Offer exclusive rewards, early access to new products, or personalized discounts to encourage repeat purchases.
-    - *Expected Outcome:* Strengthened customer loyalty among the Best Customers segment, leading to increased customer lifetime value and a positive impact on overall sales.
+    - *Expected Outcome:* Increase customer engagement, loyalty, and overall satisfaction by tailoring promotions, discounts, and marketing messages to the unique preferences and behaviors of each segment.
+2. **Enhanced Best Customer Engagement:**
+    - *Suggestion:* Develop a comprehensive strategy to engage and retain Best Customers, incorporating insights from the total sales value computation.
+    - *Expected Outcome:* Maximize revenue from high-value customers by offering exclusive benefits, personalized recommendations, and loyalty programs, fostering a deeper connection with the brand.
 3. **Dynamic Pricing Strategies:**
     - *Suggestion:* Implement dynamic pricing strategies based on the purchasing power of different demographic segments. Adjust pricing, discounts, or promotions to align with the spending capacity and preferences of females in the 21-25 age group with higher incomes and those in the 26-30 age group with lower incomes.
     - *Expected Outcome:* Optimized pricing structures that resonate with the target audience, resulting in improved conversion rates and increased average sales amounts.
 4. **Retention Strategies for Declining Segments:**
     - *Suggestion:* Develop targeted retention strategies for declining segments, such as Loyal Customers. Implement personalized communication, exclusive offers, or loyalty incentives to re-engage customers and mitigate the observed declining trends.
-    - *Expected Outcome:* Reversed decline in sales from declining segments, fostering renewed loyalty and preventing customer attrition.
-5. **Continuous Monitoring and Adaptation:**
+    - *Expected Outcome:* Strengthen customer loyalty by addressing factors contributing to the decline in spending. This may involve exclusive offers, loyalty programs, or personalized communications to re-engage and retain this valuable customer segment.
+5. **Regular Monitoring and Feedback Loop:**
     - *Suggestion:* Establish a framework for continuous monitoring of RFM segments and demographic trends. Regularly update strategies based on evolving customer behavior, ensuring the company remains agile in responding to market dynamics.
     - *Expected Outcome:* Timely identification of shifts in customer preferences and the ability to proactively adapt marketing, pricing, and retention strategies for sustained business growth.
 
