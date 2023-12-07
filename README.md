@@ -13,22 +13,25 @@ The overarching objective of this project is to dissect Zomato's customer base t
 Tableau for joining and cleaning data for analysis and visualization
 
 ## Project Analysis
-1. **Customer Segmentation Insights**
-    - *Objective:* Identify and categorize customers based on Recency, Frequency, and Monetary metrics.  
-    - *Outcome:* Highlight key customer segments, including Best Customers, Big Spenders, and Loyal Customers.  
-    - *Actionable Insights:* Inform targeted marketing strategies and enhance customer engagement.
-2. **Purchasing Behavior Analysis**
-    - *Objective:* Analyze purchasing behavior patterns through a Time Series Line Chart, focusing on order trends by yearly quarter. 
-    - *Outcome:* Identify peak order quarters to optimize promotional activities and resource allocation.  
-    - *Actionable Insights:* Enable strategic planning for promotions and enhance resource efficiency.
-3. **Demographics Insights Integration**
-    - *Objective:* Integrate demographic breakdown (age, gender) visualization.  
-    - *Outcome:* Understand the age and gender distribution of Zomato's customer base.  
-    - *Actionable Insights:* Tailor marketing campaigns to specific demographic groups, enhancing personalized user experiences.
-4. **Total Sales Value for Best Customers:**
-    - *Objective:* Compute the total sales value for the top Best Customers segment, sorted in descending order.
-    - *Outcome:* Identify high-value customers contributing significantly to Zomato's revenue.
-    - *Actionable Insights:* Tailor promotional efforts and loyalty programs to maximize engagement with high-value customers.
+**Customer Segmentation Insights**
+- *Objective:* Identify and categorize customers based on Recency, Frequency, and Monetary metrics.     
+- *Outcome:* Highlight key customer segments, including Best Customers, Big Spenders, and Loyal Customers.  
+- *Actionable Insights:* Inform targeted marketing strategies and enhance customer engagement.
+  
+**Purchasing Behavior Analysis**
+- *Objective:* Analyze purchasing behavior patterns through a Time Series Line Chart, focusing on order trends by yearly quarter.     
+- *Outcome:* Identify peak order quarters to optimize promotional activities and resource allocation.      
+- *Actionable Insights:* Enable strategic planning for promotions and enhance resource efficiency.    
+  
+**Demographics Insights Integration**
+- *Objective:* Integrate demographic breakdown (age, gender) visualization.      
+- *Outcome:* Understand the age and gender distribution of Zomato's customer base.      
+- *Actionable Insights:* Tailor marketing campaigns to specific demographic groups, enhancing personalized user experiences.
+  
+**Total Sales Value for Best Customers:**
+- *Objective:* Compute the total sales value for the top Best Customers segment, sorted in descending order.    
+- *Outcome:* Identify high-value customers contributing significantly to Zomato's revenue.    
+- *Actionable Insights:* Tailor promotional efforts and loyalty programs to maximize engagement with high-value customers.
 
 ## Dashboard
 View dynamic [dashboard](https://public.tableau.com/views/CustomerSegmentationAnalysis_16963810307130/CustomerSegmentationAnalysis?:language=en-US&:display_count=n&:origin=viz_share_link)  
